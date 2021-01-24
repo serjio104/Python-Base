@@ -34,7 +34,7 @@ else:
         if number > my_list[s]:
             my_list.insert(s, number)
             break
-        s = s + 1
+        s += 1
     if len(my_list) == length:
         my_list.append(number)
 print(f'2.Список после :{my_list}')
