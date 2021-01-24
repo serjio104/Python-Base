@@ -9,4 +9,3 @@ my_list = [1, 1.14, complex(5, 6), 'abs', [1,2,3], (4,5,6), {7, 8, 9}, {'age':50
 for el in my_list:
       print(f'Элемент списка =  {el}   тип данных элемента {type(el)}')
 
-t
