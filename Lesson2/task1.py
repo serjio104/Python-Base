@@ -9,3 +9,13 @@ my_list = [1, 1.14, complex(5, 6), 'abs', [1,2,3], (4,5,6), {7, 8, 9}, {'age':50
 for el in my_list:
       print(f'Элемент списка =  {el}   тип данных элемента {type(el)}')
 
+
+
+#Только сейчас понял, что имелось ввиду в задании
+my_list = []
+my_tuple = ()
+my_dic = {}
+
+print(f'Это список - {type(my_list) == list}')
+print(f'Это кортеж - {type(my_tuple) == tuple}')
+print(f'Это словарь - {type(my_dic) == dict}')
