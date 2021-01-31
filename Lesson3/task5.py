@@ -17,7 +17,7 @@ is_cycle = True
 total_Amount = 0
 
 while is_cycle:
-    string_numbers = input('Ведите строку чисел, разделенных пробелом : ').split(' ')
+    string_numbers = input('Ведите строку чисел, разделенных пробелом : ').split()
     for number in string_numbers:
         if number == spec_symbol:
             is_cycle = False
