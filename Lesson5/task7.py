@@ -58,3 +58,7 @@ with open('task7.json','w',encoding='utf-8') as f:
 with open('task7.json','r',encoding='utf-8') as f:
     my_list = json.load(f)
     print(f'Список из файла task7.json для проверки : \n{my_list}')
+# rrrrrrrrrrrrrr
+# rrrrrrrrrrrrrr
+# rrrrrrrrrrrrrr
+# rrrrrrrrrrrrrr

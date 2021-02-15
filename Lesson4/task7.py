@@ -17,6 +17,8 @@ from itertools import count
 from math import factorial
 
 
+
+
 def calc_fact(n):
     res = 1
     for i in range(1, n + 1):
@@ -27,7 +29,11 @@ def calc_fact(n):
 # 1 вариант
 def fact():
     for el1 in count(0):
+        print(el1)
         yield calc_fact(el1)
+
+
+
 
 
 print('\n')
@@ -46,7 +52,6 @@ def fact():
     for el2 in count(0):
         yield factorial(el2)
 
-
 print('\n')
 print(f'2 вариант:{fact()}')
 s = 0
@@ -56,3 +61,25 @@ for el in fact():
     else:
         print(f"Факториал {s} = {el} ")
         s += 1
+print('\n')
+print(f'3 вариант:{fact()}')
+def fact1():
+    fac = 1
+    #yield fac
+    for el1 in count(1):
+        yield  fac
+        fac *= el1
+
+
+
+s = 0
+for el in fact1():
+    if s > 10:
+        break
+    else:
+        print(f"Факториал {s} = {el} ")
+        s += 1
+
+
+
+1
